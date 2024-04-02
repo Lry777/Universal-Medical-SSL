@@ -41,7 +41,7 @@ cd KP-Net/
 
 
 ```
-### 2.Data Preparation & Pre-trained Weight
+### 2.Data Preprocessing
 
 #### 2.1 Dataset 2-Class Left Atrium
 
@@ -56,28 +56,83 @@ Then your file structure will be like:
 
 ```
 ```
-Next, download the following [pretrained weights](htttps)
+Next, process the data.
+
+```
+
+```
 
 -------
 
-### 3.Training $ Evaluating
+### 3.Training
 
 ```bash
 
 ```
 -------
 
-### 4.Results
+### 4.Evaluating
 
-#### 4.1 Results of 2-Class Left Atrium Segmentation Task
+```
+```
+
+-------
+
+### 5.Benchmark and model
+
+Results and models are available in the [model]().
+
+<div>
+  <b>Universal-Medical-SSL</b>
+</div>
+<table>
+  <tbody>
+    <tr align="center" valign="center">
+      <td>
+        <b>Supported models</b>
+      </td>
+      <td>
+        <b>Supported datasets</b>
+      </td>
+    </tr>
+    <tr valign="top">
+      <td>
+        <ul>
+          <li><a href="https://github.com/jingkunchen/TAC">TAC (TMI'2023)</a></li>
+          <li><a href="https://github.com/yulequan/UA-MT">UA-MT (MedIA'2023)</a></li>
+          <li><a href="https://github.com/HengCai-NJU/DeSCO">DeSCO (CVPR'2023)</a></li>
+          <li><a href="https://github.com/WYC-321/MCF">MCF (CVPR'2023)</a></li>
+          <li><a href="https://github.com/himashi92/Co-BioNet">Co-BioNet (NMI'2023)</a></li>
+          <li><a href="https://github.com/lemoshu/AC-MT">AC-MT (MedIA'2023)</a></li>
+          <li><a href="https://github.com/ycwu1997/MC-Net">MC-Net+ (MedIA'2022)</a></li>
+          <li><a href="https://github.com/Herschel555/CAML">CLAM (MICCAI'2023)</a></li>
+          <li><a href="https://github.com/Lry777/Universal-Medical-SSL">KP-Net ()</a></li>
+        </ul>
+      </td>
+      <td>
+        <ul>
+          <li><a href="">2-Class Left Atrium</a></li>
+          <li><a href="">2-Class Pancreas-CT</a></li>
+          <li><a href="">Multi-class BTCV</a></li>
+          <li><a href="">Dataset Multi-class LiTS</a></li>
+        </ul>
+      </td>
+  </tbody>
+</table>
+
+-------
+   
+### 6.Results
+
+#### 6.1 Results of 2-Class Left Atrium Segmentation Task
 
 <p align="left">
 <img src=".//.png" width=60% class="center">
 </p>
 
-#### 4.2 Results of 2-Class Pancreas-CT Segmentation Task
-#### 4.3 Results of Multi-class BTCV Segmentation Task
-#### 4.4 Results of Multi-class LiTS Segmentation Task
+#### 6.2 Results of 2-Class Pancreas-CT Segmentation Task
+#### 6.3 Results of Multi-class BTCV Segmentation Task
+#### 6.4 Results of Multi-class LiTS Segmentation Task
 
 
 ## Citation
