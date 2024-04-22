@@ -11,7 +11,7 @@ Our study highlights the potential of additional knowledge prompts in semi-super
 
 ## ![~DA422Z_P `TJ3Z$6HM2}$M](https://github.com/Lry777/Universal-Medical-SSL/assets/102654909/b251ca2f-cbdb-497f-894f-ebfe7fbd5ea3) Motivation
 
-Currently, proposed semi-supervised medical segmentation algorithms tend to design more complex network learning frameworks, overlooking the utilization of additional knowledge. Considering the limited information contained in the image data itself, this study pro-poses a knowledge Prompt semi-supervised Network based on consistency learning for medical image segmentation, named KP-Net.
+Currently, proposed semi-supervised medical segmentation algorithms tend to design more complex network learning frameworks, overlooking the utilization of additional knowledge. Considering the limited information contained in the image data itself, this study pro-poses a knowledge Prompt semi-supervised Network based on consistency learning for medical image segmentation, named HCP-Net.
 
 <p align="center">
 <img src=".//.png" width=60% height=65% class="center">
@@ -34,8 +34,8 @@ cd
 
 Then, create a new environment and install the requirements:
 ```shell
-conda create -n KP-Net python=3.8
-cd KP-Net/
+conda create -n HCP-Net python=3.8
+cd HCP-Net/
 
 
 
@@ -106,7 +106,7 @@ Results and models are available in the [model]().
           <li><a href="https://github.com/lemoshu/AC-MT">AC-MT (MedIA'2023)</a></li>
           <li><a href="https://github.com/ycwu1997/MC-Net">MC-Net+ (MedIA'2022)</a></li>
           <li><a href="https://github.com/Herschel555/CAML">CLAM (MICCAI'2023)</a></li>
-          <li><a href="https://github.com/Lry777/Universal-Medical-SSL">KP-Net ()</a></li>
+          <li><a href="https://github.com/Lry777/Universal-Medical-SSL">HCP-Net ()</a></li>
         </ul>
       </td>
       <td>
@@ -140,8 +140,8 @@ Results and models are available in the [model]().
 If you find this project useful, please consider citing:
 
 ```bibtex
-@inproceedings{KP-Net,
-  title={KP-Net: Knowledge Prompt Meets Semi-Supervised 3D Medical Image Segmentation},
+@inproceedings{HCP-Net,
+  title={HCP-Net: Knowledge Prompt Meets Semi-Supervised 3D Medical Image Segmentation},
   author={},
   booktitle={},
   year={2024}
