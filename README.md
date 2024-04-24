@@ -129,18 +129,3 @@ Results and models are available in the [model]().
 #### 6.3 Results of Multi-class BTCV Segmentation Task
 #### 6.4 Results of Multi-class LiTS Segmentation Task
 
-
-## Citation
-
-If you find this project useful, please consider citing:
-
-```bibtex
-@inproceedings{HCP-Net,
-  title={HCP-Net: Knowledge Prompt Meets Semi-Supervised 3D Medical Image Segmentation},
-  author={},
-  booktitle={},
-  year={2024}
-}
-```
-
-## Acknowlegement
