@@ -1,5 +1,5 @@
 # Universal-Medical-SSL
-This repo is the official implementation of  [Knowledge Prompt Meets Semi-Supervised 3D Medical Image Segmentation ](https//).
+This repo is the official implementation of  [Hybrid Consistency-aware Prompt Learning for Semi-Supervised Medical Image Segmentation ]().
 
 <p align="center">
 <img src=".//.png" width=60% height=65% class="center">
@@ -125,11 +125,6 @@ Results and models are available in the [model]().
 ### 6.Results
 
 #### 6.1 Results of 2-Class Left Atrium Segmentation Task
-
-<p align="left">
-<img src=".//.png" width=60% class="center">
-</p>
-
 #### 6.2 Results of 2-Class Pancreas-CT Segmentation Task
 #### 6.3 Results of Multi-class BTCV Segmentation Task
 #### 6.4 Results of Multi-class LiTS Segmentation Task
