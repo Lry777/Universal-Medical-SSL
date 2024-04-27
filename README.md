@@ -9,12 +9,13 @@ Our study highlights the potential of additional knowledge prompts in semi-super
 
 -------
 
-## ![~DA422Z_P `TJ3Z$6HM2}$M](https://github.com/Lry777/Universal-Medical-SSL/assets/102654909/b251ca2f-cbdb-497f-894f-ebfe7fbd5ea3) Motivation
+## ![~DA422Z_P `TJ3Z$6HM2}$M](https://github.com/Lry777/Universal-Medical-SSL/assets/102654909/b251ca2f-cbdb-497f-894f-ebfe7fbd5ea3) Abstract
 
 Currently, proposed semi-supervised medical segmentation algorithms tend to design more complex network learning frameworks, overlooking the utilization of additional knowledge. Considering the limited information contained in the image data itself, this study pro-poses a knowledge Prompt semi-supervised Network based on consistency learning for medical image segmentation, named HCP-Net.
 
 
-Specifically, we define multi-scale selective fusion rules and a Token Joint Gate mechanism from the perspectives of edge-enhanced image prompts and text prompts, for the efficient fusion of different modal features. Furthermore, to effectively conduct consistency learning from perturbation estimates, we combine the consistency of different decoding branches and the distinctiveness of the same decoding branch, and enhance the common consistency loss. We validated the effectiveness of the proposed method by comparing it with various advanced methods on four publicly available datasets with multiple modalities.Encouragingly, our method achieves optimal performance with minimal training resources.
+Specifically, the network defines multi-scale selective fusion rules and a Token Joint Attention mechanism from the perspectives of edge-enhanced image prompts and text prompts, for the efficient fusion of different modal features. Furthermore, to effectively learn prompt information, the network combines the consistency of perturbation prediction and the distinctiveness of unified prediction, while enhancing the common consistency loss. We validated the effectiveness of the proposed method by comparing it with various advanced methods on four publicly available datasets with multiple modalities. Encouragingly, our method
+achieves optimal performance with minimal training resources.This study highlights the potential of additional knowledge prompts in semi-supervised medical image segmentation, and we have integrated the proposed method and a wide range of existing state-of-the-art methods into a unified platform: Universal-Medical-SSL.
 
 -------
 
