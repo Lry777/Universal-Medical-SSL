@@ -2,19 +2,17 @@
 This repo is the official implementation of  [Language-Guided Visual Representation Learning for Medical Images]().
 
 <p align="center">
-<img src="assets/HCT-Net.png" width=60% height=65% class="center">
+<img src="assert/LG-SSL.png" width=60% height=65% class="center">
 </p>
-
-Our study highlights the potential of additional knowledge prompts in semi-supervised medical image segmentation, and we have integrated the proposed method and a wide range of existing state-of-the-art methods into a unified platform: [Universal-Medical-SSL](https://github.com/Lry777/Universal-Medical-SSL).
 
 -------
 
 ## ![~DA422Z_P `TJ3Z$6HM2}$M](https://github.com/Lry777/Universal-Medical-SSL/assets/102654909/b251ca2f-cbdb-497f-894f-ebfe7fbd5ea3) Abstract
 
-Semi-Supervised Learning (SSL) significantly reduces the demand for medical segmentation annotations by learning from unlabeled images. Currently, most methods do not explicitly learn from unlabeled data, which may lead to suboptimal semantic feature representations of the target. Recently, vision-language models have achieved impressive results in enhancing fine-grained semantic segmentation through textual knowledge. However, how to utilize text prompt during training to learn consistent semantic representations for medical unlabeled data remains a challenge. To address the above issues, we propose a Semi-Supervised Learning paradigm for LanguageGuided visual representation learning (LG-SSL) to fully learn from unlabeled data.
+Semi-Supervised Learning (SSL) significantly reduces the demand for medical segmentation annotations by learning from unlabeled images. Currently, most methods do not explicitly learn from unlabeled data, which may lead to suboptimal semantic feature representations of the target. Recently, vision-language models have achieved impressive results in enhancing fine-grained semantic segmentation through textual knowledge. However, how to utilize text prompt during training to learn consistent semantic representations for medical unlabeled data remains a challenge. To address the above issues, we propose a Semi-Supervised Learning paradigm for Language-Guided visual representation learning (LG-SSL) to fully learn from unlabeled data.
 
 
-Specifically, we first construct a learnable prompt adapter to obtain the mapping relationship between the text and image space of the prompt target through supervised learning. Then, we use the text prompts learned from labeled data to guide the network’s perception of target features in unlabeled data. At the same time, we propose a Text-Vision Selection Fusion module to combine effective semantics by fusing and selecting text and visual features. Furthermore, we introduce a hybrid consistency constraint strategy, enhancing the network’s capacity to learn complex representations by combining consistency in perturbation predictions and diversity in unified predictions.Experimental results demonstrate that our proposed method outperforms other state-of-the-art methods on four datasets with diverse modalities. We have integrated a unified semi-supervised learning segmentation platform: Universal-Medical-SSL.
+Specifically, we first construct a learnable prompt adapter to obtain the mapping relationship between the text and image space of the prompt target through supervised learning. Then, we use the text prompts learned from labeled data to guide the network’s perception of target features in unlabeled data. At the same time, we propose a Text-Vision Selection Fusion module to combine effective semantics by fusing and selecting text and visual features. Furthermore, we introduce a hybrid consistency constraint strategy, enhancing the network’s capacity to learn complex representations by combining consistency in perturbation predictions and diversity in unified predictions.Experimental results demonstrate that our proposed method outperforms other state-of-the-art methods on four datasets with diverse modalities. We have integrated a unified semi-supervised learning segmentation platform:[Universal-Medical-SSL](https://github.com/Lry777/Universal-Medical-SSL).
 
 -------
 
@@ -103,7 +101,7 @@ Results and models are available in the [model]().
           <li><a href="https://github.com/lemoshu/AC-MT">AC-MT (MedIA'2023)</a></li>
           <li><a href="https://github.com/ycwu1997/MC-Net">MC-Net+ (MedIA'2022)</a></li>
           <li><a href="https://github.com/Herschel555/CAML">CLAM (MICCAI'2023)</a></li>
-          <li><a href="https://github.com/Lry777/Universal-Medical-SSL">HCP-Net ()</a></li>
+          <li><a href="https://github.com/Lry777/Universal-Medical-SSL">LG-SSL ()</a></li>
         </ul>
       </td>
       <td>
