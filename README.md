@@ -1,5 +1,5 @@
 # Universal-Medical-SSL
-This repo is the official implementation of  [Hybrid Consistency-aware Prompt Learning for Semi-Supervised Medical Image Segmentation ]().
+This repo is the official implementation of  [Language-Guided Visual Representation Learning for Medical Images]().
 
 <p align="center">
 <img src="assets/HCT-Net.png" width=60% height=65% class="center">
@@ -11,11 +11,10 @@ Our study highlights the potential of additional knowledge prompts in semi-super
 
 ## ![~DA422Z_P `TJ3Z$6HM2}$M](https://github.com/Lry777/Universal-Medical-SSL/assets/102654909/b251ca2f-cbdb-497f-894f-ebfe7fbd5ea3) Abstract
 
-Currently, proposed semi-supervised medical segmentation algorithms tend to design more complex network learning frameworks, overlooking the utilization of additional knowledge. Considering the limited information contained in the image data itself, this study pro-poses a knowledge Prompt semi-supervised Network based on consistency learning for medical image segmentation, named HCP-Net.
+Semi-Supervised Learning (SSL) significantly reduces the demand for medical segmentation annotations by learning from unlabeled images. Currently, most methods do not explicitly learn from unlabeled data, which may lead to suboptimal semantic feature representations of the target. Recently, vision-language models have achieved impressive results in enhancing fine-grained semantic segmentation through textual knowledge. However, how to utilize text prompt during training to learn consistent semantic representations for medical unlabeled data remains a challenge. To address the above issues, we propose a Semi-Supervised Learning paradigm for LanguageGuided visual representation learning (LG-SSL) to fully learn from unlabeled data.
 
 
-Specifically, the network defines multi-scale selective fusion rules and a Token Joint Attention mechanism from the perspectives of edge-enhanced image prompts and text prompts, for the efficient fusion of different modal features. Furthermore, to effectively learn prompt information, the network combines the consistency of perturbation prediction and the distinctiveness of unified prediction, while enhancing the common consistency loss. We validated the effectiveness of the proposed method by comparing it with various advanced methods on four publicly available datasets with multiple modalities. Encouragingly, our method
-achieves optimal performance with minimal training resources.This study highlights the potential of additional knowledge prompts in semi-supervised medical image segmentation, and we have integrated the proposed method and a wide range of existing state-of-the-art methods into a unified platform: Universal-Medical-SSL.
+Specifically, we first construct a learnable prompt adapter to obtain the mapping relationship between the text and image space of the prompt target through supervised learning. Then, we use the text prompts learned from labeled data to guide the network’s perception of target features in unlabeled data. At the same time, we propose a Text-Vision Selection Fusion module to combine effective semantics by fusing and selecting text and visual features. Furthermore, we introduce a hybrid consistency constraint strategy, enhancing the network’s capacity to learn complex representations by combining consistency in perturbation predictions and diversity in unified predictions.Experimental results demonstrate that our proposed method outperforms other state-of-the-art methods on four datasets with diverse modalities. We have integrated a unified semi-supervised learning segmentation platform: Universal-Medical-SSL.
 
 -------
 
@@ -32,8 +31,8 @@ cd
 
 Then, create a new environment and install the requirements:
 ```shell
-conda create -n HCP-Net python=3.8
-cd HCP-Net/
+conda create -n LG-SSL python=3.8
+cd LG-SSL/
 
 
 
